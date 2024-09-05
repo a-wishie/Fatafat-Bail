@@ -52,7 +52,20 @@ Bail Reckoner is a web application designed to streamline the bail process for u
 - **Resources:** Find additional materials such as videos and documents to assist with bail procedures.
 
 ## Project Structure
-bail-reckoner/ │ ├── landing-page/ │ ├── landing.html │ ├── styles.css │ └── bailer2.jpg │ ├── form-page/ │ ├── form.html │ └── form.css │ ├── Sign Up Page/ │ ├── signUp.html │ └── signUp.css │ ├── index.html └── README.md
+bail-reckoner/ 
+├── frontend/ 
+│ ├── landing-page/ 
+│ ├── landing.html 
+│ ├── styles.css 
+│ └── bailer2.jpg 
+│ ├── form-page/ 
+│ ├── form.html 
+│ └── form.css 
+│ ├── Sign Up Page/ 
+│ ├── signUp.html 
+│ └── signUp.css 
+│ ├── index.html 
+└── README.md
 
 
 - `landing-page/`: Contains the home page files.
