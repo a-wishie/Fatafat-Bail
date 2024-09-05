@@ -1,4 +1,4 @@
-# Bail Reckoner
+# SwiftBait-Bail Reckoner
 
 Bail Reckoner is a web application designed to streamline the bail process for undertrial prisoners, legal aid providers, and judicial authorities. It offers an easy-to-use interface to calculate bail amounts, access legal resources, and manage bail-related documentation.
 
