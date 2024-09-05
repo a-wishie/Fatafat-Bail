@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bail Reckoner - About</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <a href="../landing-page/landing.html" class="logo">Bail Reckoner</a>
+            <nav>
+                <ul>
+                    <li><a href="../form-page/form.html">Bail Form</a></li>
+                    <li class="dropdown">
+                        <a href="#">Dashboard ↓</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Bail Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Sign Up Page/signUp.html">Sign Up</a></li>
+                    <li><a href="../About page/about.html">About Us!</a></li>
+                    <li class="dropdown">
+                        <a href="#">Resources ↓</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Video Resources</a></li>
+                            <li><a href="#">Documents</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Need help Page/help.html">Need Help?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content">     
+        <div class="maincontent">
+            <h1>ABOUT US</h1>
+            <p id="aboutText"></p>      
+        </div>
+    </section>
+
+    <script>
+        const text = `Welcome to Bail Reckoner, an innovative digital solution designed to simplify and expedite the bail application process for undertrial prisoners. Our platform leverages the power of artificial intelligence and data analytics to assist legal professionals, judicial authorities, and legal aid providers in making informed decisions regarding bail.
+        
+        At Bail Reckoner, our mission is to ensure a fair and efficient judicial process by analyzing various legal and procedural parameters, such as the nature of offenses, duration of imprisonment, and statutory provisions. We strive to provide a comprehensive, transparent, and data-driven approach to bail evaluation, ensuring that justice is accessible and prompt.
+        
+        With our AI-powered bail prediction model, we aim to streamline the complex process of determining bail eligibility based on real-time legal data. Our platform integrates cutting-edge machine learning algorithms, a robust MongoDB database for managing prisoner records, and an intuitive user interface that makes it easier to analyze case details and receive bail recommendations in just a few clicks.
+        
+        By simplifying legal workflows and improving access to crucial information, Bail Reckoner is committed to enhancing the efficiency of the justice system, reducing the number of undertrial prisoners, and contributing to the overall welfare of society.
+
+        Join us on this journey towards a more efficient and fair legal system for all.`;
+
+        let index = 0;
+        const speed = 50; // Typing speed
+
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("aboutText").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        // Start the typing effect
+        window.onload = function() {
+            typeWriter();
+        };
+    </script>
+
+</body>
+</html>
