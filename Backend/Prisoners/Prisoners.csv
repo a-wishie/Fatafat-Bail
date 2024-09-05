@@ -1,0 +1,151 @@
+Prisoner ID,Name,IPC Section,Crime Keywords,Severity,Time Already Served,Total Serving Time
+P001,Rajesh Kumar,302,"Murder, Assault",10,5,20
+P002,Sameer Sharma,376,"Rape, Kidnapping",9,2,15
+P003,Arjun Verma,420,"Fraud, Forgery",6,1,5
+P004,Ankit Mehta,307,Attempt to Murder,8,3,10
+P005,Suresh Patil,323,"Assault, Battery",4,2,6
+P006,Ramesh Gupta,395,"Robbery, Armed",7,3,12
+P007,Mohan Singh,498A,Domestic Violence,5,1,5
+P008,Vijay Rathi,304A,"Negligence, Accident",4,1,4
+P009,Ajay Deshmukh,392,"Robbery, Theft",6,2,8
+P010,Ravi Shastri,201,Destruction of Evidence,5,1,4
+P011,Santosh Nair,420,"Cheating, Fraud",6,2,7
+P012,Deepak Mishra,506,Criminal Intimidation,5,1,5
+P013,Vikram Chauhan,377,Unnatural Offenses,8,2,10
+P014,Ashok Tiwari,302,"Murder, Assault",10,6,20
+P015,Karan Malhotra,324,Assault with Weapon,7,3,10
+P016,Jatin Goswami,379,"Theft, Burglary",5,2,6
+P017,Nitin Vyas,304,Culpable Homicide,9,4,15
+P018,Amit Pandey,498A,Domestic Abuse,5,1,5
+P019,Suraj Kapoor,354,Sexual Assault,7,2,10
+P020,Rohit Desai,394,Robbery with Violence,8,3,12
+P021,Neeraj Bajpai,307,Attempt to Murder,8,3,10
+P022,Anil Rathore,323,Physical Assault,4,1,4
+P023,Pawan Gupta,379,"Theft, Pickpocketing",5,2,6
+P024,Manish Khurana,420,"Fraud, Embezzlement",6,2,8
+P025,Rajan Bansal,376,"Rape, Assault",9,4,14
+P026,Gaurav Sharma,302,"Murder, Premeditated",10,6,20
+P027,Ishaan Ahuja,380,"Theft, Burglary",6,2,8
+P028,Rohan Kulkarni,304A,"Negligence, Accident",4,1,4
+P029,Aditya Shetty,395,Armed Robbery,7,3,12
+P030,Vinay Patil,307,Attempt to Murder,8,3,12
+P031,Varun Joshi,506,Criminal Threats,5,1,4
+P032,Prateek Rao,498A,Domestic Violence,5,2,5
+P033,Sahil Mehra,379,"Theft, Shoplifting",4,1,4
+P034,Yash Sharma,304,Manslaughter,9,3,14
+P035,Nishant Kaur,354,Sexual Harassment,7,2,10
+P036,Abhay Kapoor,392,"Theft, Robbery",6,3,8
+P037,Prem Sinha,394,Violent Robbery,8,2,12
+P038,Kunal Grover,323,"Assault, Injury",5,1,5
+P039,Nikhil Raj,506,Criminal Intimidation,5,2,6
+P040,Rohit Yadav,302,"Murder, Revenge",10,7,20
+P041,Naman Gupta,307,Attempt to Murder,8,3,10
+P042,Tushar Thakur,380,"Housebreaking, Theft",6,2,8
+P043,Arnav Bhatt,498A,Domestic Violence,5,1,5
+P044,Sidharth Chawla,304,Culpable Homicide,9,3,14
+P045,Himesh Joshi,392,Robbery,6,2,8
+P046,Dhruv Kapoor,302,"Murder, First Degree",10,8,20
+P047,Uday Shankar,307,Attempted Murder,8,3,12
+P048,Keshav Raj,323,Assault,5,1,4
+P049,Ajit Pawar,379,Theft,4,1,4
+P050,Lakhan Singh,395,Armed Robbery,7,3,12
+P051,Bhavesh Patel,302,"Murder, Premeditated",10,6,20
+P052,Raghav Verma,323,Assault,5,1,4
+P053,Parth Desai,379,"Burglary, Theft",5,2,6
+P054,Arvind Patel,498A,Domestic Violence,5,1,5
+P055,Sagar Chauhan,304A,"Negligence, Accident",4,1,4
+P056,Kabir Sen,376,Rape,9,4,15
+P057,Mehul Jain,323,Physical Assault,4,1,5
+P058,Harshit Singh,506,"Threats, Intimidation",5,2,6
+P059,Akash Tripathi,395,Armed Robbery,7,3,12
+P060,Varun Dixit,302,"Murder, Violent",10,7,20
+P061,Aman Sethi,307,Attempted Murder,8,3,12
+P062,Kunal Mehta,379,"Burglary, Theft",5,2,6
+P063,Neeraj Gupta,498A,Domestic Abuse,5,1,5
+P064,Rishabh Shukla,354,Sexual Harassment,7,2,10
+P065,Harsh Vardhan,392,"Robbery, Theft",6,3,8
+P066,Sandeep Yadav,304A,"Negligence, Accident",4,1,4
+P067,Rahul Nair,506,Criminal Intimidation,5,2,6
+P068,Vijay Chauhan,376,"Rape, Assault",9,3,15
+P069,Piyush Jain,302,"Murder, Assault",10,6,20
+P070,Rohan Gupta,420,"Fraud, Cheating",6,2,7
+P071,Suresh Singh,323,"Assault, Battery",4,1,5
+P072,Abhishek Rao,302,"Murder, Premeditated",10,8,20
+P073,Tapan Das,380,"Housebreaking, Theft",6,2,8
+P074,Dheeraj Singh,304,Culpable Homicide,9,3,15
+P075,Mohit Sethi,395,Armed Robbery,7,3,12
+P076,Sahil Kapoor,307,Attempted Murder,8,3,12
+P077,Yuvraj Sharma,323,"Assault, Injury",5,1,5
+P078,Amit Yadav,379,"Theft, Pickpocketing",4,2,5
+P079,Prakash Menon,304A,"Negligence, Accident",4,1,4
+P080,Gopal Khanna,498A,Domestic Violence,5,1,5
+P081,Sumit Chauhan,506,Criminal Intimidation,5,2,6
+P082,Ishaan Kapoor,392,Robbery,6,2,8
+P083,Tarun Patel,420,"Fraud, Cheating",6,3,7
+P084,Jatin Singh,302,Murder,10,7,20
+P085,Niraj Desai,307,Attempt to Murder,8,3,12
+P086,Shyam Gupta,304,Culpable Homicide,9,4,15
+P087,Vishal Khurana,323,Physical Assault,4,1,5
+P088,Rajiv Nair,379,"Burglary, Theft",5,2,6
+P089,Nishant Bajpai,395,Armed Robbery,7,3,12
+P090,Parth Singh,498A,Domestic Violence,5,1,5
+P091,Rohit Chandra,354,Sexual Assault,7,2,10
+P092,Rahul Shah,392,Robbery,6,2,8
+P093,Nitin Mehta,304A,"Negligence, Manslaughter",4,1,4
+P094,Vijay Sharma,506,Threatening Violence,5,1,5
+P095,Sanjay Joshi,302,Murder,10,6,20
+P096,Ajay Kumar,379,Theft,4,1,5
+P097,Ramesh Rao,307,Attempted Murder,8,4,12
+P098,Karan Jain,420,"Fraud, Embezzlement",6,2,8
+P099,Deepak Sinha,323,Physical Assault,4,1,5
+P100,Arjun Verma,304,Culpable Homicide,9,4,14
+P101,Keshav Chauhan,376,Rape,9,3,15
+P102,Manoj Gupta,354,Sexual Harassment,7,2,10
+P103,Pawan Kapoor,506,Criminal Intimidation,5,1,5
+P104,Rahul Dubey,380,"Theft, Housebreaking",6,2,8
+P105,Vikas Thakur,302,Murder,10,6,20
+P106,Himanshu Singh,498A,Domestic Violence,5,2,5
+P107,Tarun Mehra,323,Assault,4,1,4
+P108,Amit Kumar,307,Attempt to Murder,8,3,12
+P109,Arvind Nair,304,Culpable Homicide,9,3,14
+P110,Raj Malhotra,420,"Fraud, Forgery",6,2,7
+P111,Mohan Chauhan,376,"Rape, Assault",9,3,15
+P112,Gaurav Sharma,392,"Robbery, Theft",6,2,8
+P113,Arjun Patel,506,Criminal Intimidation,5,1,5
+P114,Yash Desai,379,"Burglary, Theft",5,1,6
+P115,Rohit Joshi,302,Murder,10,7,20
+P116,Sandeep Verma,307,Attempt to Murder,8,3,12
+P117,Rajat Kapoor,304,Culpable Homicide,9,4,14
+P118,Rohan Gupta,323,Physical Assault,4,1,4
+P119,Neeraj Khanna,498A,Domestic Abuse,5,2,5
+P120,Akash Jain,376,"Rape, Assault",9,3,15
+P121,Ajay Yadav,395,Armed Robbery,7,3,12
+P122,Tushar Desai,354,Sexual Assault,7,2,10
+P123,Vikram Malhotra,392,"Theft, Robbery",6,2,8
+P124,Vishal Patel,506,Criminal Intimidation,5,1,5
+P125,Abhishek Chauhan,304A,"Negligence, Accident",4,1,4
+P126,Rakesh Sharma,302,Murder,10,7,20
+P127,Naman Sharma,307,Attempt to Murder,8,3,12
+P128,Rajesh Khanna,323,Assault,4,1,4
+P129,Aditya Singh,379,"Theft, Burglary",5,2,6
+P130,Kunal Thakur,498A,Domestic Violence,5,1,5
+P131,Mohit Verma,354,Sexual Harassment,7,2,10
+P132,Rishi Malhotra,392,"Robbery, Theft",6,2,8
+P133,Shivam Kapoor,506,Criminal Intimidation,5,1,5
+P134,Ajay Deshmukh,304A,"Negligence, Accident",4,1,4
+P135,Parth Mehta,302,"Murder, Assault",10,8,20
+P136,Sahil Verma,307,Attempt to Murder,8,4,12
+P137,Ravi Shankar,379,"Burglary, Theft",5,2,6
+P138,Vikas Dubey,420,"Fraud, Cheating",6,2,7
+P139,Udit Sinha,304,Culpable Homicide,9,4,14
+P140,Rohit Sharma,323,Physical Assault,4,1,4
+P141,Ramesh Khurana,376,"Rape, Assault",9,3,15
+P142,Rahul Chauhan,354,Sexual Assault,7,2,10
+P143,Suresh Patel,506,Criminal Intimidation,5,1,5
+P144,Suraj Sinha,392,"Robbery, Theft",6,2,8
+P145,Virat Sharma,302,"Murder, Premeditated",10,7,20
+P146,Ajay Singh,307,Attempt to Murder,8,4,12
+P147,Abhay Raj,304A,"Negligence, Manslaughter",4,1,4
+P148,Manish Gupta,379,"Theft, Burglary",5,2,6
+P149,Arjun Sethi,420,"Fraud, Embezzlement",6,3,7
+P150,Nikhil Kumar,304,Culpable Homicide,9,4,14
