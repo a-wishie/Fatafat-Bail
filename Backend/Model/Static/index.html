@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bail Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 300px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bail Status Prediction</h1>
+
+    <form id="bailForm">
+        <label for="ipc_section">Enter IPC Section:</label><br>
+        <input type="text" id="ipc_section" name="ipc_section" required><br><br>
+        <button type="submit">Check Bail Status</button>
+    </form>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        document.getElementById('bailForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Get the IPC section entered by the user
+            const ipcSection = document.getElementById('ipc_section').value;
+
+            // Send the IPC section to the Flask API via POST request
+            fetch('/predict-bail/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ ipc_section: ipcSection })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Display the bail status result
+                document.getElementById('result').innerText = 'Bail Status: ' + data.bail_status;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('result').innerText = 'Error occurred. Please try again.';
+            });
+        });
+    </script>
+
+</body>
+</html>
